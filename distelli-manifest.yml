@@ -1,0 +1,10 @@
+<username>/SimpleApp:
+
+  Env:
+    - EXAMPLE: '"This is an example manifest environment variable."'
+    
+  PkgInclude:
+    - application.sh
+    
+  Exec:
+    - './application.sh'
