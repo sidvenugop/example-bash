@@ -1,6 +1,6 @@
 svenugopalan/SimpleApp:
 
-  PostInstall: section
+  PostInstall: 
     - ls -la /home/distelli/cola
   Env:
     - EXAMPLE: '"This is an example manifest environment variable."'
@@ -8,5 +8,5 @@ svenugopalan/SimpleApp:
   PkgInclude:
     - application.sh
     
-  Exec:
+  Start:
     - './application.sh'
