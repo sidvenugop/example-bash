@@ -1,7 +1,7 @@
 svenugopalan/SimpleApp:
 
   Prestart:
-    - ls -l /etc/lotto
+    - ls -l /home/distelli/cola
   Env:
     - EXAMPLE: '"This is an example manifest environment variable."'
     
