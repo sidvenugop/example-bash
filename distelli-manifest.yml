@@ -1,5 +1,7 @@
 svenugopalan/SimpleApp:
 
+  Prestart:
+    - ls -l /etc/lotto
   Env:
     - EXAMPLE: '"This is an example manifest environment variable."'
     
