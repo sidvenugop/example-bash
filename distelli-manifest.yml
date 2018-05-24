@@ -1,4 +1,4 @@
-<username>/SimpleApp:
+svenugopalan/SimpleApp:
 
   Env:
     - EXAMPLE: '"This is an example manifest environment variable."'
