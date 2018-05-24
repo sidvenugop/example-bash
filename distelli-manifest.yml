@@ -1,7 +1,7 @@
 svenugopalan/SimpleApp:
 
-  Prestart:
-    - ls -l /home/distelli/cola
+  PostInstall: section
+    - ls -la /home/distelli/cola
   Env:
     - EXAMPLE: '"This is an example manifest environment variable."'
     
