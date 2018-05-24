@@ -5,5 +5,5 @@
 # * Linux Host
 # * MAC OS X Host
 #
-echo "Cola" > /etc/lotto
+echo "Cola" > /home/distelli/cola
 
