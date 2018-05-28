@@ -20,6 +20,7 @@ echo "Git Already Installed"
 else
 sudo yum install git -y
 fi
+sudo su
 cd /etc/puppetlabs/code/environments/production/modules/
 sudo git clone https://github.com/sidvenugop/helloworld
 puppet --version
