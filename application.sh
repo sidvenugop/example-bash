@@ -23,4 +23,4 @@ fi
 sudo su
 cd /etc/puppetlabs/code/environments/production/modules/
 sudo git clone https://github.com/sidvenugop/helloworld
-/opt/puppetlabs/bin/puppet --version
+/opt/puppetlabs/bin/puppet apply --modulepath=/etc/puppetlabs/code/environments/production/modules -e "include helloworld" --noop
