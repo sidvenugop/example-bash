@@ -22,4 +22,4 @@ sudo yum install git -y
 fi
 cd /etc/puppetlabs/code/environments/production/modules/
 sudo git clone https://github.com/sidvenugop/helloworld
-puppet apply --modulepath=/etc/puppetlabs/code/environments/production/modules -e "include helloworld" --noop
+puppet --version
